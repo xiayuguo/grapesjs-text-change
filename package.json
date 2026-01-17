@@ -1,0 +1,29 @@
+{
+  "name": "grapesjs-text-change",
+  "version": "0.1.0",
+  "description": "Reliable text input listener for GrapesJS canvas",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "demo": "pnpm -C demo dev"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin",
+    "text"
+  ],
+  "author": "Yuguo",
+  "peerDependencies": {
+    "grapesjs": "^0.22.0"
+  },
+  "devDependencies": {
+    "grapesjs": "^0.22.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "license": "MIT"
+}

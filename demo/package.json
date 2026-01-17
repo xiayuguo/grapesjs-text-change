@@ -1,0 +1,14 @@
+{
+  "name": "grapesjs-text-change-demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "grapesjs": "^0.22.0",
+    "grapesjs-blocks-basic": "^1.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
