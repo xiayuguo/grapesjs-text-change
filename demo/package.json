@@ -2,7 +2,8 @@
   "name": "grapesjs-text-change-demo",
   "private": true,
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "grapesjs": "^0.22.0",
