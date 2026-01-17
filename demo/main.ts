@@ -11,6 +11,13 @@ const editor = grapesjs.init({
 
 console.log('Editor initialized');
 
+editor.setComponents(`
+  <div>
+    <h1>Open console and try edit this text 👇</h1>
+    <p>Click and type something...</p>
+  </div>
+`);
+
 
 editor.on('text:input', e => {
   console.log(e.text);
