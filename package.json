@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-text-change",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reliable text input listener for GrapesJS canvas",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
